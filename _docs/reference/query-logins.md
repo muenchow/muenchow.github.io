@@ -12,8 +12,8 @@ Adds a new query client login, or enables query login for existing clients. When
 
 | Parameter     | Type      | Required | Description
 |---------------|-----------|----------|------------
-| client_login_name | string    | yes      | requested login name
-| cldbid        | integer   | no       | id of client  in the database<br>Defaults to invoker
+| `client_login_name` | string    | yes      | requested login name
+| `cldbid`      | integer   | no       | id of client  in the database<br>Defaults to invoker
 
 | Permission                               | Required for
 |------------------------------------------|-------------
@@ -27,7 +27,7 @@ Deletes an existing server query login on selected server. When no virtual serve
 
 | Parameter     | Type      | Required | Description
 |---------------|-----------|----------|------------
-| cldbid        | integer   | no       | id of client  in the database
+| `cldbid`      | integer   | no       | id of client  in the database
 
 | Permission                               | Required for
 |------------------------------------------|-------------

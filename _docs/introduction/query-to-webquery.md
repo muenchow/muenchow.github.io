@@ -1,7 +1,7 @@
 ---
 title: Query to WebQuery
 category: Introduction
-order: 3
+order: 2
 ---
 
 Nearly everything that can be done with 'normal' query session, can also be done with WebQuery. For that we mapped the our query syntax to json.

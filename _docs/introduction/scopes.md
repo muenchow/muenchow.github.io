@@ -4,7 +4,7 @@ category: Introduction
 order: 3
 ---
 
-Every API key has a scope that limits what can be done with this api key. There are three different possible values for scope: `manage`, `write` and `read`.
+Every API key has a scope that limits what commands can be performed with this api key. There are three different possible values for scope: `manage`, `write` and `read`.
 
 | Command                        | Available in              |
 |--------------------------------|---------------------------|

@@ -20,21 +20,6 @@ For detailed information, see Definitions.
 |------------------------------------------|-------------
 | b_virtualserver_servergroup_create       | always
 
-### servergroupaddclient
-
-Scopes: `manage`
-
-Adds one or more clients to the server group specified with sgid. Please note that a client cannot be added to default groups or template groups.
-
-| Parameter     | Type      | Required | Description
-|---------------|-----------|----------|------------
-| `sgid`        | integer   | yes      | id of server group
-| `cldbid`      | integer   | yes      | id of client in database
-
-| Permission                               | Required for
-|------------------------------------------|-------------
-| i_group_member_add_power                 | always
-
 ### servergroupaddperm
 
 Scopes: `manage`

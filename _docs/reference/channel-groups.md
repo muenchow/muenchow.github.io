@@ -153,20 +153,3 @@ Changes the name of a channel group.
 |------------------------------------------|-------------
 | i_group_modify_power                     | always
 
-
-### setclientchannelgroup
-
-Scopes: `manage`, `write`
-
-Sets the channel group of a client to the ID specified with `cgid`.
-
-| Parameter     | Type      | Required | Description
-|---------------|-----------|----------|------------
-| `cgid`        | integer   | yes      | id of channel group
-| `cid`         | integer   | yes      | id of channel
-| `cldbid`      | integer   | yes      | if of client in database
-
-| Permission                               | Required for
-|------------------------------------------|-------------
-| i_group_member_add_power                 | always
-| i_group_member_remove_power              | always

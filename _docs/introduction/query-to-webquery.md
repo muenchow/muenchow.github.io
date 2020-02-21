@@ -5,7 +5,7 @@ order: 3
 ---
 
 Nearly everything that can be done with 'normal' query session, can also be done with WebQuery. For that we mapped the our query syntax to json.
-The format of an uri for a request, in WebQuery, must be either `/<command>?<argurments>` or `/<virtual server id>/<command>?<argurments>`. The difference being the leading `virtual server id`. If no `virtual server id` is send with a request, then the virtual server of the also supplied api-key will be used. Arguments to a command are send using either uri parameters, or when using POST uploaded in a json object. The Reply contains the full response generate by the server, with the error-line being handled individually. If additional lines of  response have been send along with the error-line, then they are converted into objects in the body-part of the response.
+The format of an uri for a request, in WebQuery, must be either `/<command>?<arguments>` or `/<virtual server id>/<command>?<arguments>`. The difference being the leading `virtual server id`. If no `virtual server id` is send with a request, then the virtual server of the also supplied api-key will be used. Arguments to a command are send using either uri parameters, or when using POST uploaded in a json object. The Reply contains the full response generate by the server, with the error-line being handled individually. If additional lines of  response have been send along with the error-line, then they are converted into objects in the body-part of the response.
 
 ### GET
 

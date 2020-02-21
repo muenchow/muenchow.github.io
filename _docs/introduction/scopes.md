@@ -6,7 +6,7 @@ order: 3
 
 Every API key has a scope that limits what can be done with this api key. There are three different possible values for scope: `manage`, `write` and `read`.
 
-| Command                        | Available in scope        |
+| Command                        | Available in              |
 |--------------------------------|---------------------------|
 | [apikeyadd]                    | `manage`                  |
 | [apikeydel]                    | `manage`                  |
@@ -145,15 +145,15 @@ Every API key has a scope that limits what can be done with this api key. There 
 [channeldelperm]: {% link _docs/reference/channels.md %}#channeldelperm
 [channeledit]: {% link _docs/reference/channels.md %}#channeledit
 [channelfind]: {% link _docs/reference/channels.md %}#channelfind
-[channelgroupadd]: {% link _docs/reference/channels.md %}#channelgroupadd
-[channelgroupaddperm]: {% link _docs/reference/channels.md %}#channelgroupaddperm
-[channelgroupclientlist]: {% link _docs/reference/channels.md %}#channelgroupclientlist
-[channelgroupcopy]: {% link _docs/reference/channels.md %}#channelgroupcopy
-[channelgroupdel]: {% link _docs/reference/channels.md %}#channelgroupdel
-[channelgroupdelperm]: {% link _docs/reference/channels.md %}#channelgroupdelperm
-[channelgrouplist]: {% link _docs/reference/channels.md %}#channelgrouplist
-[channelgrouppermlist]: {% link _docs/reference/channels.md %}#channelgrouppermlist
-[channelgrouprename]: {% link _docs/reference/channels.md %}#channelgrouprename
+[channelgroupadd]: {% link _docs/reference/channel-groups.md %}#channelgroupadd
+[channelgroupaddperm]: {% link _docs/reference/channel-groups.md %}#channelgroupaddperm
+[channelgroupclientlist]: {% link _docs/reference/channel-groups.md %}#channelgroupclientlist
+[channelgroupcopy]: {% link _docs/reference/channel-groups.md %}#channelgroupcopy
+[channelgroupdel]: {% link _docs/reference/channel-groups.md %}#channelgroupdel
+[channelgroupdelperm]: {% link _docs/reference/channel-groups.md %}#channelgroupdelperm
+[channelgrouplist]: {% link _docs/reference/channel-groups.md %}#channelgrouplist
+[channelgrouppermlist]: {% link _docs/reference/channel-groups.md %}#channelgrouppermlist
+[channelgrouprename]: {% link _docs/reference/channel-groups.md %}#channelgrouprename
 [channelinfo]: {% link _docs/reference/channels.md %}#channelinfo
 [channellist]: {% link _docs/reference/channels.md %}#channellist
 [channelmove]: {% link _docs/reference/channels.md %}#channelmove

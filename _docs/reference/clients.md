@@ -1,5 +1,5 @@
 ---
-title: Channels
+title: Clients
 category: Reference
 order: 1
 ---
